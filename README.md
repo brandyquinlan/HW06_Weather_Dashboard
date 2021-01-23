@@ -34,6 +34,6 @@ THEN I am presented with the last searched city forecast
 The url for the site is: (https://brandyquinlan.github.io/HW06_Weather_Dashboard/)<br>
 The repo is located here: (https://github.com/brandyquinlan/HW06_Weather_Dashboard/)
 
-## Screenshots of Day Planner
+## Screenshots of Weather Dashboard
 ![Screenshot](/assets/mov_img/HW06.png)
-![](/assets/mov_img/HW06.mov)
+![Slow Video](/assets/mov_img/HW06.gif)
