@@ -90,7 +90,6 @@ h2 {
 p {
     font-size: 1.3rem;
     margin-left: 1rem;
-    /* margin-bottom: -.03rem; */
 }
 
 .card {
@@ -230,17 +229,14 @@ h5 {
     }
     h5 {
         text-align: center;
-        /* padding: rem !important; */
         font-size: .7rem;
         margin: 0;
     }
     #recent {
-        /* margin-bottom: rem; */
         margin-top: 1rem;
     }
     .list-group-item {
         font-size: 1rem;
-        /* padding: .2rem; */
     }
     .btn {
         font-size: .7rem;
@@ -252,9 +248,6 @@ h5 {
         border: 2px solid #ccc;
         border-radius: 4px;
         font-size: .8rem;
-        /* margin-left: -1.8rem; */
-        /* background-color: white; */
-        /* padding: 1px; */
     }
     h1 {
         font-size: 1.5rem;
@@ -272,10 +265,7 @@ h5 {
     }
     .curr-day {
         height: 20vh !important;
-        margin-left: -3em !important;
         margin-top: -.2em !important;
-        margin-bottom: 2em;
-        /* padding-left: 1.2rem; */
     }
     img {
         height: 32px !important;
@@ -286,6 +276,6 @@ h5 {
         font-size: .7rem;
     }
     .sidebar {
-        /* height: 60%; */
+        height: 100%;
     }
 }
