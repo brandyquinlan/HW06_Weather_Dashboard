@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(60, 159, 240);
+    color: #fff;
+}
+
+.content {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+    background-color: rgb(250, 250, 250);
+    height: 80vh;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: .2rem;
+    margin-top: -.4rem;
+}
+
+input[type=text] {
+    width: 86%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    background-color: white;
+    padding: 6px;
+}
+
+#recent {
+    margin-bottom: -1.5rem;
+    margin-top: 3rem;
+}
+
+.list-group,
+h3,
+h2 {
+    margin-top: 2rem;
+}
+
+.list-group-item {
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: .2rem;
+}
+
+#city-name {
+    margin-bottom: 1rem;
+    color: tomato;
+}
+
+
+/* Main */
+
+.main {
+    background-color: rgb(236, 235, 235);
+    height: 80vh;
+}
+
+#day-cast {
+    margin-bottom: -1rem;
+    margin-left: -.3rem;
+}
+
+p {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    /* margin-bottom: -.03rem; */
+}
+
+.card {
+    margin-top: 2rem;
+    height: 30vh;
+}
+
+.curr-day {
+    height: 32vh;
+    background-color: #fff;
+    margin: .5rem;
+    margin-top: 2rem;
+    padding-left: 1.2rem;
+}
+
+.big-icon {
+    height: 15rem;
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+.weather-card {
+    height: 30vh;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 19%;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+.d-flex {
+    flex-wrap: wrap;
+}
+
+#card-1 {
+    background-color: #dff1ff;
+}
+
+#card-2 {
+    background-color: #b9e3ff;
+}
+
+#card-3 {
+    background-color: #99d3fa;
+}
+
+#card-4 {
+    background-color: #79c8fd;
+}
+
+#card-5 {
+    background-color: #4eadfc;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1024px) {
+    * {
+        line-height: 1rem;
+    }
+    h3,
+    h2,
+    h4,
+    h5 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    input[type=text] {
+        width: 70%;
+    }
+    * {
+        line-height: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sidebar {
+        height: 100%;
+        background-color: rgb(207, 207, 207);
+    }
+    .big-icon {
+        width: 5rem;
+        height: 5rem;
+        margin-top: 0;
+    }
+    .mainCol1 {
+        height: 50vh;
+    }
+    .main,
+    .sidebar {
+        background-color: #fff;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    input[type=text] {
+        width: 80%;
+    }
+    .weather-card {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .weather-card {
+        width: 48%;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .big-icon {
+        width: 5rem;
+        height: 5rem;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h2 {
+        font-size: 1rem;
+        margin-bottom: .5rem;
+    }
+    h5 {
+        text-align: center;
+        /* padding: rem !important; */
+        font-size: .7rem;
+        margin: 0;
+    }
+    #recent {
+        /* margin-bottom: rem; */
+        margin-top: 1rem;
+    }
+    .list-group-item {
+        font-size: 1rem;
+        /* padding: .2rem; */
+    }
+    .btn {
+        font-size: .7rem;
+        margin-top: .8em;
+    }
+    input[type=text] {
+        width: 90%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: .8rem;
+        /* margin-left: -1.8rem; */
+        /* background-color: white; */
+        /* padding: 1px; */
+    }
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: -.5rem;
+        padding: 0;
+    }
+    .weather-card {
+        width: 80%;
+        height: 70%;
+        padding: 0;
+    }
+    .big-icon {
+        visibility: hidden;
+    }
+    .curr-day {
+        height: 20vh !important;
+        margin-left: -3em !important;
+        margin-top: -.2em !important;
+        margin-bottom: 2em;
+        /* padding-left: 1.2rem; */
+    }
+    img {
+        height: 32px !important;
+        width: 32px !important;
+    }
+    p {
+        margin: .3rem !important;
+        font-size: .7rem;
+    }
+    .sidebar {
+        /* height: 60%; */
+    }
+}
