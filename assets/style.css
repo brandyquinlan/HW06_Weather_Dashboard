@@ -1,4 +1,5 @@
 body {
+    size: 80%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -36,18 +37,18 @@ h3 {
     background-color: DodgerBlue;
     border: none;
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     cursor: pointer;
     border-radius: .2rem;
     margin-top: -.4rem;
 }
 
 input[type=text] {
-    width: 86%;
+    width: 90%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     background-color: white;
     padding: 6px;
 }
@@ -222,60 +223,17 @@ h5 {
     }
 }
 
-@media only screen and (max-width: 500px) {
-    h2 {
-        font-size: 1rem;
-        margin-bottom: .5rem;
-    }
-    h5 {
-        text-align: center;
-        font-size: .7rem;
-        margin: 0;
-    }
-    #recent {
-        margin-top: 1rem;
-    }
-    .list-group-item {
-        font-size: 1rem;
-    }
-    .btn {
-        font-size: .7rem;
-        margin-top: .8em;
-    }
-    input[type=text] {
-        width: 90%;
-        box-sizing: border-box;
-        border: 2px solid #ccc;
-        border-radius: 4px;
-        font-size: .8rem;
-    }
+@media only screen and (max-width: 326px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-align: center;
-        margin: -.5rem;
-        padding: 0;
     }
     .weather-card {
-        width: 80%;
-        height: 70%;
-        padding: 0;
+        width: 100%;
     }
     .big-icon {
-        visibility: hidden;
-    }
-    .curr-day {
-        height: 20vh !important;
-        margin-top: -.2em !important;
-    }
-    img {
-        height: 32px !important;
-        width: 32px !important;
-    }
-    p {
-        margin: .3rem !important;
-        font-size: .7rem;
-    }
-    .sidebar {
-        height: 100%;
+        width: 3rem;
+        height: 3rem;
+        margin-top: 0;
     }
 }
