@@ -30,34 +30,31 @@
                 </form>
                 <h3 id="recent">Recent Searches:</h3>
                 <ul class="list-group" id="sidebar">
-
-                    <!-- append searched cities here on load -->
+                    <!-- Recent Searches List -->
                 </ul>
             </div>
 
         </aside>
         <!-- Main -->
-        <main class="col-md-8 main">
-            <div class="container">
-                <div class="row curr-day">
-                    <div class="col-md-6">
-                        <h2 id="city-name"></h2>
-                        <p>Temperature: <span id="temp"></span></p>
-                        <p>Humidity: <span id="humidity"></span></p>
-                        <p>Wind speed: <span id="wind"></span></p>
-                        <p>UV index: <span class="badge badge-success" id="uv">uv</span></p>
-                    </div>
-                    <div class="col-md-6" id="icon">
-                        <!-- Icons go here -->
-                    </div>
+        <main class="container col-md-8 main">
+            <div class="row curr-day">
+                <div class="col-md-6">
+                    <h2 id="city-name"></h2>
+                    <p>Temperature: <span id="temp"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <p>Wind speed: <span id="wind"></span></p>
+                    <p>UV index: <span class="badge badge-success" id="uv">uv</span></p>
                 </div>
-                <div class="row col-md-12" id="day-cast">
-                    <h2>Five day forecast:</h2>
+                <div class="col-md-6" id="icon">
+                    <!-- Icons go here -->
                 </div>
-                <!-- 5 Day Forecast Cards -->
-                <div class="row col md-12 d-flex justify-content-between" id="card-box">
-                    <!-- Empty div for cards -->
-                </div>
+            </div>
+            <div class="row col-md-12" id="day-cast">
+                <h2>Five day forecast:</h2>
+            </div>
+            <!-- 5 Day Forecast Cards -->
+            <div class="row col md-12 d-flex justify-content-between" id="card-box">
+                <!-- Empty div for cards -->
             </div>
         </main>
     </section>
