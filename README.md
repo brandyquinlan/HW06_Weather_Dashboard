@@ -1,4 +1,4 @@
-# HW06_Weather_Dashboard
+# Weather-Dashboard
 ## 06 Server-Side APIs: Weather Dashboard
 
 This project entailed retrieving data from a third-party API and using it to access data and functionality by making requests with specific parameters to a URL. The challenge was to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
@@ -31,8 +31,8 @@ WHEN I open the weather dashboard
 THEN I am presented with the last searched city forecast
 ```
 ## URL and Repo Locations
-The url for the site is: (https://brandyquinlan.github.io/HW06_Weather_Dashboard/)<br>
-The repo is located here: (https://github.com/brandyquinlan/HW06_Weather_Dashboard/)
+The url for the site is: (https://brandyquinlan.github.io/Weather-Dashboard/)<br>
+The repo is located here: (https://github.com/brandyquinlan/Weather-Dashboard/)
 
 ## Screenshots of Weather Dashboard
 ![Screenshot](/assets/mov_img/HW06.png)
