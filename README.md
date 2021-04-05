@@ -36,3 +36,12 @@ The repo is located here: (https://github.com/brandyquinlan/Weather-Dashboard/)
 ## Screenshots of Weather Dashboard
 ![Screenshot](/assets/mov_img/HW06.png)
 ![Slow Video](/assets/mov_img/HW06.gif)
+
+## Questions
+Please contact me with questions:
+
+Brandy Quinlan
+<br>
+Email: <brandyquinlan@gmail.com>
+<br>
+Github: [https://github.com/brandyquinlan/](https://github.com/brandyquinlan/)
