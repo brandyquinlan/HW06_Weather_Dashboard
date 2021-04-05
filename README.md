@@ -1,5 +1,4 @@
 # Weather-Dashboard
-## 06 Server-Side APIs: Weather Dashboard
 
 This project entailed retrieving data from a third-party API and using it to access data and functionality by making requests with specific parameters to a URL. The challenge was to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 
