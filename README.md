@@ -30,8 +30,8 @@ WHEN I open the weather dashboard
 THEN I am presented with the last searched city forecast
 ```
 ## URL and Repo Locations
-The url for the site is: (https://brandyquinlan.github.io/Weather-Dashboard/)<br>
-The repo is located here: (https://github.com/brandyquinlan/Weather-Dashboard/)
+The url for the site is: (https://brandyquinlan.github.io/Weather-App/)<br>
+The repo is located here: (https://github.com/brandyquinlan/Weather-App/)
 
 ## Screenshots of Weather Dashboard
 ![Screenshot](/assets/mov_img/HW06.png)
